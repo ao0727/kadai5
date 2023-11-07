@@ -5,6 +5,8 @@
 #include <sstream> 
 using namespace std;
 
+//コンストラクタを参照できない
+
 class Card {
 public:
     enum Rank { ACE = 1, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING };
